@@ -2,6 +2,8 @@
 
 This is a PyTorch implementation of [YolOOD: Utilizing Object Detection Concepts for Multi-Label Out-of-Distribution Detection](https://arxiv.org/pdf/2212.02081) by Alon Zolfi, Guy Amit, Amit Baras, Satoru Koda, Ikuya Morikawa, Yuval Elovici, Asaf Shabtai. Code is modified from [YOLOv5](https://github.com/ultralytics/yolov5) and [JointEnergy](https://github.com/deeplearning-wisc/multi-label-ood).
 
+![](figs/overview.png)
+
 ## Installation
 ```bash
 conda create -n YolOOD python=3.8
