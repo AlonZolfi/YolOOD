@@ -154,7 +154,7 @@ def fine_tune():
         args.in_data_root = dataset_attributes['path']
 
     args.mode = 'eval'
-    args.save_dir = str(increment_path(Path(args.save_dir))) # TODO: change to args.save_dir
+    args.save_dir = str(increment_path(Path(args.save_dir)))
     Path(args.save_dir).mkdir(parents=True, exist_ok=True)
     with open(os.path.join(args.save_dir, 'eval_opt.yaml'), 'w') as f:
         yaml.safe_dump(vars(args), f, sort_keys=False)
