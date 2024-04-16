@@ -1,0 +1,10 @@
+path: datasets/pascal_voc # dataset root dir
+train: # train images 5717 images
+  - images/train
+val: # val images 5832 images
+  - images/val
+test: # test images 10991 images
+  - images/test
+nc: 20  # number of classes
+names: ['aeroplane', 'bicycle', 'bird', 'boat', 'bottle', 'bus', 'car', 'cat', 'chair', 'cow', 'diningtable', 'dog',
+        'horse', 'motorbike', 'person', 'pottedplant', 'sheep', 'sofa', 'train', 'tvmonitor']  # class names

@@ -1,0 +1,11 @@
+path: datasets/objects365_in  # dataset root dir
+train: # train images 106550 images
+  - images/train
+val: # val images 5000 images
+  - images/val
+test: # test images 1000 images
+  - images/test
+nc: 20  # number of classes
+names: [ 'person', 'chair', 'car', 'boat', 'wild bird','bench','sailboat','bottle','potted plant', 'cup',
+         'handbag','dog','bus','train','umbrella','cow','airplane', 'cat', 'truck','horse' ]  # class names
+mapping: [0: 0, 1: 2, 2: 5, 3: 21, 4: 56, 5: 24, 6: 72, 7: 8, 8: 25, 9: 10, 10: 13, 11: 92, 12: 55, 13: 116, 14: 39, 15: 96, 16: 114, 17: 139, 18: 65, 19: 78]

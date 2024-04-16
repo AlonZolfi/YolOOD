@@ -1,0 +1,22 @@
+lr0: 0.0001
+scheduler_patience: 0
+
+cls: 1
+cls_pw: 1
+obj: 1
+obj_pw: 1
+fl_gamma: 0.0
+
+hsv_h: 0.01
+hsv_s: 0.5
+hsv_v: 0.25
+degrees: 0.0
+translate: 0.05
+scale: 0.75
+shear: 0.0
+perspective: 0.0
+flipud: 0.0
+fliplr: 0.5
+mosaic: 0.0
+mixup: 0.0
+copy_paste: 0.0

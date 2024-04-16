@@ -1,0 +1,9 @@
+path: datasets/nus_wide  # dataset root dir
+test: # test images 40670 images
+  - images/test
+nc: 54  # number of classes
+ood_class_names: ['beach', 'bridge', 'buildings', 'castle', 'cityscape', 'clouds', 'coral', 'earthquake', 'elk', 'fire', 'fish',
+        'flags', 'flowers', 'fox', 'frost', 'garden', 'glacier', 'grass', 'harbor', 'house', 'lake', 'leaf', 'map',
+        'military', 'moon', 'mountain', 'nighttime', 'ocean', 'plants', 'police', 'railroad', 'rainbow', 'reflection',
+        'road', 'rocks', 'sand', 'sign', 'snow', 'sports', 'statue', 'street', 'sun', 'sunset', 'temple', 'tiger', 'tower',
+        'town', 'toy', 'tree', 'valley', 'water', 'waterfall', 'whales', 'window']  # class names
