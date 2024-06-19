@@ -201,3 +201,14 @@ python fine_tune_ood.py --ood maha --method max --maha_type ensemble --noise NOI
 ```bash
 python eval_ood.py --arch yolo --load_model PATH_TO_MODEL_FOLDER --ood yolo --method max --ood_type obj*cls --head_method max --ind_dataset coco2017 --ood_dataset objects365_out
 ```
+
+## Citation
+```bibtex
+@inproceedings{zolfi2024yolood,
+  title={YolOOD: Utilizing Object Detection Concepts for Multi-Label Out-of-Distribution Detection},
+  author={Zolfi, Alon and Amit, Guy and Baras, Amit and Koda, Satoru and Morikawa, Ikuya and Elovici, Yuval and Shabtai, Asaf},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={5788--5797},
+  year={2024}
+}
+```
