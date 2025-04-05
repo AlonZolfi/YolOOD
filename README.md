@@ -130,11 +130,11 @@ Train YOLO-cls on COCO:
 ```bash
 python train_cls.py --ind_dataset coco2017
 ```
-Train YolOOD on Pascal VOC:
+Train YOLO-cls on Pascal VOC:
 ```bash
 python train_cls.py --ind_dataset pascal_voc
 ```
-Train YolOOD on Objects365_in:
+Train YOLO-cls on Objects365_in:
 ```bash
 python train_cls.py --ind_dataset objects365_in
 ```
